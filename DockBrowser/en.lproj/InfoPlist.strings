@@ -1,0 +1,5 @@
+/* Localized versions of Info.plist keys */
+
+CFBundleName = "DockBrowser";
+CFBundleGetInfoString = "v1.2, Copyright © 2003-2011, Apple Inc.";
+NSHumanReadableCopyright = "Copyright © 2003-2011, Apple Inc.";

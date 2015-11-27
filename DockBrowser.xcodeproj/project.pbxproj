@@ -1,0 +1,310 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D02713C813E85E2C000196F2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D02713CA13E85E2C000196F2 /* InfoPlist.strings */; };
+		D039A89413E0679F00D54C22 /* Bonjour.icns in Resources */ = {isa = PBXBuildFile; fileRef = D039A89313E0679F00D54C22 /* Bonjour.icns */; };
+		D0FDE2C913DF25B70066ED15 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0FDE2C813DF25B70066ED15 /* Cocoa.framework */; };
+		D0FDE2D513DF25B70066ED15 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D0FDE2D413DF25B70066ED15 /* main.m */; };
+		D0FDE2D913DF25B70066ED15 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = D0FDE2D713DF25B70066ED15 /* Credits.rtf */; };
+		D0FDE2DC13DF25B70066ED15 /* DockBrowserAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D0FDE2DB13DF25B70066ED15 /* DockBrowserAppDelegate.m */; };
+		D0FDE2DF13DF25B70066ED15 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = D0FDE2DD13DF25B70066ED15 /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D02713C913E85E2C000196F2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D039A89313E0679F00D54C22 /* Bonjour.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = Bonjour.icns; sourceTree = "<group>"; };
+		D039A89513E0DA9A00D54C22 /* ReadMe.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ReadMe.txt; sourceTree = "<group>"; };
+		D0FDE2C413DF25B70066ED15 /* DockBrowser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DockBrowser.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0FDE2C813DF25B70066ED15 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		D0FDE2CB13DF25B70066ED15 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		D0FDE2CD13DF25B70066ED15 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D0FDE2D013DF25B70066ED15 /* DockBrowser-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DockBrowser-Info.plist"; sourceTree = "<group>"; };
+		D0FDE2D413DF25B70066ED15 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D0FDE2D613DF25B70066ED15 /* DockBrowser-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DockBrowser-Prefix.pch"; sourceTree = "<group>"; };
+		D0FDE2D813DF25B70066ED15 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		D0FDE2DA13DF25B70066ED15 /* DockBrowserAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DockBrowserAppDelegate.h; sourceTree = "<group>"; };
+		D0FDE2DB13DF25B70066ED15 /* DockBrowserAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DockBrowserAppDelegate.m; sourceTree = "<group>"; };
+		D0FDE2DE13DF25B70066ED15 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D0FDE2C113DF25B70066ED15 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0FDE2C913DF25B70066ED15 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D0FDE2B913DF25B70066ED15 = {
+			isa = PBXGroup;
+			children = (
+				D039A89513E0DA9A00D54C22 /* ReadMe.txt */,
+				D0FDE2CE13DF25B70066ED15 /* DockBrowser */,
+				D0FDE2C713DF25B70066ED15 /* Frameworks */,
+				D0FDE2C513DF25B70066ED15 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D0FDE2C513DF25B70066ED15 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D0FDE2C413DF25B70066ED15 /* DockBrowser.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D0FDE2C713DF25B70066ED15 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D0FDE2C813DF25B70066ED15 /* Cocoa.framework */,
+				D0FDE2CA13DF25B70066ED15 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D0FDE2CA13DF25B70066ED15 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D0FDE2CB13DF25B70066ED15 /* AppKit.framework */,
+				D0FDE2CD13DF25B70066ED15 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		D0FDE2CE13DF25B70066ED15 /* DockBrowser */ = {
+			isa = PBXGroup;
+			children = (
+				D0FDE2E513DF26110066ED15 /* Resources */,
+				D0FDE2DA13DF25B70066ED15 /* DockBrowserAppDelegate.h */,
+				D0FDE2DB13DF25B70066ED15 /* DockBrowserAppDelegate.m */,
+				D0FDE2CF13DF25B70066ED15 /* Supporting Files */,
+			);
+			path = DockBrowser;
+			sourceTree = "<group>";
+		};
+		D0FDE2CF13DF25B70066ED15 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D0FDE2D013DF25B70066ED15 /* DockBrowser-Info.plist */,
+				D02713CA13E85E2C000196F2 /* InfoPlist.strings */,
+				D0FDE2D413DF25B70066ED15 /* main.m */,
+				D0FDE2D613DF25B70066ED15 /* DockBrowser-Prefix.pch */,
+				D0FDE2D713DF25B70066ED15 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D0FDE2E513DF26110066ED15 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D039A89313E0679F00D54C22 /* Bonjour.icns */,
+				D0FDE2DD13DF25B70066ED15 /* MainMenu.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D0FDE2C313DF25B70066ED15 /* DockBrowser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0FDE2E213DF25B70066ED15 /* Build configuration list for PBXNativeTarget "DockBrowser" */;
+			buildPhases = (
+				D0FDE2C013DF25B70066ED15 /* Sources */,
+				D0FDE2C113DF25B70066ED15 /* Frameworks */,
+				D0FDE2C213DF25B70066ED15 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DockBrowser;
+			productName = DockBrowser;
+			productReference = D0FDE2C413DF25B70066ED15 /* DockBrowser.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D0FDE2BB13DF25B70066ED15 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Apple, Inc";
+			};
+			buildConfigurationList = D0FDE2BE13DF25B70066ED15 /* Build configuration list for PBXProject "DockBrowser" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				ja,
+			);
+			mainGroup = D0FDE2B913DF25B70066ED15;
+			productRefGroup = D0FDE2C513DF25B70066ED15 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D0FDE2C313DF25B70066ED15 /* DockBrowser */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D0FDE2C213DF25B70066ED15 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D02713C813E85E2C000196F2 /* InfoPlist.strings in Resources */,
+				D0FDE2D913DF25B70066ED15 /* Credits.rtf in Resources */,
+				D0FDE2DF13DF25B70066ED15 /* MainMenu.xib in Resources */,
+				D039A89413E0679F00D54C22 /* Bonjour.icns in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D0FDE2C013DF25B70066ED15 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0FDE2D513DF25B70066ED15 /* main.m in Sources */,
+				D0FDE2DC13DF25B70066ED15 /* DockBrowserAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D02713CA13E85E2C000196F2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D02713C913E85E2C000196F2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D0FDE2D713DF25B70066ED15 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D0FDE2D813DF25B70066ED15 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		D0FDE2DD13DF25B70066ED15 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D0FDE2DE13DF25B70066ED15 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D0FDE2E013DF25B70066ED15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		D0FDE2E113DF25B70066ED15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		D0FDE2E313DF25B70066ED15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DockBrowser/DockBrowser-Prefix.pch";
+				INFOPLIST_FILE = "DockBrowser/DockBrowser-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D0FDE2E413DF25B70066ED15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DockBrowser/DockBrowser-Prefix.pch";
+				INFOPLIST_FILE = "DockBrowser/DockBrowser-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D0FDE2BE13DF25B70066ED15 /* Build configuration list for PBXProject "DockBrowser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0FDE2E013DF25B70066ED15 /* Debug */,
+				D0FDE2E113DF25B70066ED15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0FDE2E213DF25B70066ED15 /* Build configuration list for PBXNativeTarget "DockBrowser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0FDE2E313DF25B70066ED15 /* Debug */,
+				D0FDE2E413DF25B70066ED15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D0FDE2BB13DF25B70066ED15 /* Project object */;
+}
